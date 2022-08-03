@@ -1,0 +1,22 @@
+{
+  "name": "daily-toy-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taniazumbiel/daily-toy-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taniazumbiel/daily-toy-e2e/issues"
+  },
+  "homepage": "https://github.com/taniazumbiel/daily-toy-e2e#readme",
+  "devDependencies": {
+    "nightwatch": "^2.3.0"
+  }
+}
