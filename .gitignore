@@ -1,3 +1,5 @@
 node_modules
 chromedriver.log
 e2e-test/tests/testUtils/credentials.js
+logs
+test_output

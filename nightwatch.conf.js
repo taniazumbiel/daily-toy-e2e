@@ -26,15 +26,16 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
         javascriptEnabled: true,
-        // chromeOptions: {
-        //   args: [
-        //     "--window-size=1920,1080",
-        //     "--start-maximized",
+        chromeOptions: {
+          args: [
+            "--window-size=1920,1080",
+            "--start-maximized",
         //     "--headless",
         //     "--disable-gpu",
         //     "no-sandbox",
-        //   ],
-        // },
+            "--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"
+          ],
+        },
         binary: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
       },
     },
