@@ -1,3 +1,3 @@
 module.exports = {
-    loginButton: ``,
+    loginButton: `//button[@type="submit"]`,
 }

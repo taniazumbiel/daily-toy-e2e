@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/taniazumbiel/daily-toy-e2e#readme",
   "devDependencies": {
+    "chromedriver": "^104.0.0",
     "nightwatch": "^2.3.0"
   }
 }

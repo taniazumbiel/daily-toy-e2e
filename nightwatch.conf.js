@@ -26,15 +26,15 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
         javascriptEnabled: true,
-        chromeOptions: {
-          args: [
-            "--window-size=1920,1080",
-            "--start-maximized",
-            "--headless",
-            "--disable-gpu",
-            "no-sandbox",
-          ],
-        },
+        // chromeOptions: {
+        //   args: [
+        //     "--window-size=1920,1080",
+        //     "--start-maximized",
+        //     "--headless",
+        //     "--disable-gpu",
+        //     "no-sandbox",
+        //   ],
+        // },
         binary: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
       },
     },
