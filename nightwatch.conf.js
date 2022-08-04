@@ -1,7 +1,7 @@
 
 module.exports = {
   src_folders: ["e2e-test/tests"],
-  page_objects_path: ["e2e-test/page-objects"],
+  
   log_screenshot_data: true,
   test_workers: {
     enabled: true,
