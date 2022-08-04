@@ -30,9 +30,10 @@ module.exports = {
           args: [
             "--window-size=1920,1080",
             "--start-maximized",
-        //     "--headless",
-        //     "--disable-gpu",
-        //     "no-sandbox",
+            // **** uncomment the following 3 lines to run tests in headless mode ****
+            // "--headless",
+            // "--disable-gpu",
+            // "no-sandbox",
             "--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"
           ],
         },
