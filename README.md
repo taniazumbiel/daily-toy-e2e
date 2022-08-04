@@ -25,7 +25,7 @@ Make sure:
 
 Then clone the repo to your local computer and run 
 
-   npm install
+    npm install
 
 This will install all the packages and dependencies needed for running the tests (Nightwatch and Chromedriver).
 
@@ -41,13 +41,16 @@ When everything is installed and you are ready to run the test, open the project
 
 This command will automatically start the browser. After all the tests are complete (they all are expected to pass), the following output will be displayed in terminal:
 
- ![Passed tests](/img/passed-tests.png)
+![Passed tests](/img/passed-tests.png)
 
 To run a test that will fail, use the following command:
 
+
     npm test -- --tag failed-test
 
+
 Failed test output will be displayed in terminal and what part failed in particular, will be highlighted:
+
 
 ![Failed tests](/img/failed-test.png)
 
