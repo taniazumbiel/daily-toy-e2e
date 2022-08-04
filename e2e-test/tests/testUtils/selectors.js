@@ -11,5 +11,7 @@ module.exports = {
     onePersonInCallLabel: `//p[contains(text(), "1 person in call")]`,
     participant1InCall: `//p[contains(text(), "Auto-test-John (You)")]`,
     participant2InCall: `//p[contains(text(), "Auto-test-John")]`,
-    twoPeopleInCallLabel: `//p[contains(text(), "2 people in call")]`
+    twoPeopleInCallLabel: `//p[contains(text(), "2 people in call")]`,
+    waitingForOthersToJoin: `//p[contains(text(),'Waiting for others to join')]`,
+    leaveCallButton: `//div[@class="leave"]/button`
 }
