@@ -6,6 +6,7 @@ module.exports = {
     participant1: `Auto-test-John`,
     joinCallButton: `//span[contains(text(), "Join")]`,
     readyToJoinHeader: `//h2[contains(text(), "Are you ready")]`,
+    readyToJoinHeaderFail: `//h2[contains(text(), "I am not ready")]`,
     peopleButton: `//button[@id="people-controls"]`,
     sideTabButton: `//button[@id="tab-sidebar-0"]`,
     onePersonInCallLabel: `//p[contains(text(), "1 person in call")]`,
