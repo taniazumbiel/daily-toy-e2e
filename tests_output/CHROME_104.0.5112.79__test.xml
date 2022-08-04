@@ -5,9 +5,13 @@
 
   <testsuite name="test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="1" time="34.14" timestamp="">
+    tests="1" time="19.34" timestamp="">
   
-    <testcase name="Daily join video call toy test" classname="test" time="34.14" assertions="10">
+    <testcase name="DTwo participants video call e2e toy test" classname="test" time="19.34" assertions="12">
+
+    
+
+    
 
     
 
