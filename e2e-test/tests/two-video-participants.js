@@ -32,14 +32,14 @@ module.exports = {
         .setValue(userNameField, participant1)
         .click(submitButton)
         //wait for the page to load and click on "Join call"
-        .waitForElementVisible(readyToJoinHeader, 2000, "User successfully navigated to pre-join page")
+        .waitForElementVisible(readyToJoinHeader, 2000, "User successfully navigated to pre-join page and 'Ready to join?' question is displayed")
         .click(joinCallButton)
         .pause(3000)
         .click(peopleButton)
         .waitForElementVisible(sideTabButton, 2000, "Verified that side tab is loaded")
         .verify.elementPresent(onePersonInCallLabel, "One person in call notation is present. Verified that one person joined the call")
-        .verify.elementPresent(waitingForOthersToJoin, "Waiting for others to join is present")
-        .verify.elementPresent(leaveCallButton, "Leave call button appears")
+        .verify.elementPresent(waitingForOthersToJoin, "'Waiting for others to join' is present")
+        .verify.elementPresent(leaveCallButton, "'Leave call' button appears")
         .assert.elementPresent(participant1InCall, "Participant 1 successfully joined the call")
 
         // *** SECOND PARTICIPANT JOINS THE CALL ***
@@ -59,11 +59,11 @@ module.exports = {
         .pause(3000)
         .click(peopleButton) 
         .waitForElementVisible(sideTabButton, 2000, "Verified that side tab is loaded")
-        .verify.not.elementPresent(waitingForOthersToJoin, "Waiting for others to join disappeared when the second person joined")
+        .verify.not.elementPresent(waitingForOthersToJoin, "'Waiting for others to join' disappeared when the second person joined")
         .verify.elementPresent(twoPeopleInCallLabel, "Two people in call notation are present. Verified that 2 people joined the call")
-        .verify.elementPresent(leaveCallButton, "Leave call button appears")
+        .verify.elementPresent(leaveCallButton, "'Leave call' button appears")
         .assert.elementPresent(participant1InCall, "Participant 1 successfully joined the call and currently present in participants list") 
         .assert.elementPresent(participant2InCall, "Participant 2 successfully joined the call and currently present in participants list") 
-        .end();  
+        browser.end();  
         },
 };
